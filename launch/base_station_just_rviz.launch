@@ -1,0 +1,8 @@
+<launch>
+
+  <param name="model" value="burger"/>
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find base_station)/rviz/vega.rviz">
+  </node>
+
+</launch>
